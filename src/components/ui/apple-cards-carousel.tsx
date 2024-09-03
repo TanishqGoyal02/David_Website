@@ -20,7 +20,7 @@ interface CarouselProps {
   items: JSX.Element[];
   initialScroll?: number;
 }
-
+//
 type Card = {
   src: string;
   title: string;
