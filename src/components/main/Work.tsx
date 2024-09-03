@@ -14,9 +14,8 @@ const Work = () => {
       id="work"
       className="h-full w-full rounded-md flex md:justify-center antialiased relative text-slate-100"
     >
-      {/* Adjust the position with className */}
-      <Spotlight fill="#DA70D6" />
-      <Spotlight />
+      <Spotlight fill="#DA70D6" className="-mt-[200px] md:-mt-[500px]" />
+      <Spotlight className="-mt-[120px] md:-mt-[400px]" />
       <motion.div
         className="flex flex-col w-full items-center text-center justify-center px-12 z-10"
         initial="hidden"
