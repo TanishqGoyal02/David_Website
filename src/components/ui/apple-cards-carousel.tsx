@@ -20,7 +20,7 @@ interface CarouselProps {
   items: JSX.Element[];
   initialScroll?: number;
 }
-//
+
 type Card = {
   src: string;
   title: string;
@@ -179,14 +179,9 @@ export const Card = ({
       document.body.style.overflow = "auto";
     }
 
-    const handleClose = () => {
-      setOpen(false);
-      onCardClose(index);
-    };
-
     window.addEventListener("keydown", onKeyDown);
     return () => window.removeEventListener("keydown", onKeyDown);
-  }, []);
+  }, [open]);
 
   useOutsideClick(containerRef, () => handleClose());
 
