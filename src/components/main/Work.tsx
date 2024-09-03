@@ -27,7 +27,7 @@ const Work = () => {
           className="flex flex-row items-center justify-center font-bold md:text-6xl text-3xl mx-auto h-2"
         >
           <span> My Life&#39;s</span>
-          <FlipWords words={words} duration={5000} />
+          <FlipWords words={words} duration={4000} />
         </motion.div>
 
         <motion.p
