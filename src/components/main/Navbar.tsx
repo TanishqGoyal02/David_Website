@@ -19,7 +19,7 @@ const Navbar = () => {
             height={70}
             className="cursor-pointer hover:animate-slowspin"
           />
-          <span className="font-bold ml-[10px] md:block text-gray-300">
+          <span className="font-bold ml-[10px] md:block text-black md:text-gray-300">
             COSMOS_
           </span>
         </a>
