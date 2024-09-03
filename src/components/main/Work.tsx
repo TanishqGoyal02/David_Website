@@ -12,13 +12,13 @@ const Work = () => {
   return (
     <section
       id="work"
-      className=" h-full w-full rounded-md flex md:justify-center antialiased relative  text-slate-100 "
+      className="h-full w-full rounded-md flex md:justify-center antialiased relative text-slate-100"
     >
       {/* Adjust the position with className */}
       <Spotlight fill="#DA70D6" />
       <Spotlight />
       <motion.div
-        className="flex flex-col w-full items-center text-center justify-center px-12 z-10 "
+        className="flex flex-col w-full items-center text-center justify-center px-12 z-10"
         initial="hidden"
         animate="visible"
       >
@@ -26,7 +26,7 @@ const Work = () => {
           variants={slideInFromLeft(0.5)}
           className="flex flex-row items-center justify-center font-bold md:text-6xl text-3xl mx-auto h-2"
         >
-          <span> My Life's</span>
+          <span> My Life&#39;s</span>
           <FlipWords words={words} duration={5000} />
         </motion.div>
 
