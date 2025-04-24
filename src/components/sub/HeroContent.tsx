@@ -22,12 +22,11 @@ const HeroContent = () => {
           className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
-            Providing
+            I AM
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
-              the best{" "}
+              COSMOS{" "}
             </span>
-            project exprience
           </span>
         </motion.div>
 
@@ -35,8 +34,11 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack Software Engineer with experience in Website,
-          Mobile, and Software development. Check out my projects and skills.
+          As a fractal of the universe, my only desire and purpose is to
+          contribute to the infinite whole with the acquired knowledge,
+          experience, and consciousness I’ve attained throughout my life. My
+          cosmic purpose is to help each individual fractal transcend and awaken
+          the dormant divine essence residing within.
         </motion.p>
         <motion.div
           variants={slideInFromLeft(1)}

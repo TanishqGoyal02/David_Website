@@ -2,6 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
+import ZodiacCarousel from "@/components/ui/ZodiacCarousel";
 
 export function LampDemo() {
   return (
@@ -18,6 +19,9 @@ export function LampDemo() {
       >
         Build lamps <br /> the right way
       </motion.h1>
+      <div className="z-50 mt-10 -translate-y-10">
+        <ZodiacCarousel />
+      </div>
     </LampContainer>
   );
 }

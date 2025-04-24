@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import { slideInFromLeft, slideInFromRight } from "@/utils/motion";
 
 const Work = () => {
-  const words = ["Purpose", "Passion", "Dreams", "Goals"];
+  const words = ["destination", "zenith", "aspiration"];
 
   return (
     <section
@@ -25,7 +25,7 @@ const Work = () => {
           variants={slideInFromLeft(0.5)}
           className="flex flex-row items-center justify-center font-bold md:text-6xl text-3xl mx-auto h-2"
         >
-          <span> My Life&#39;s</span>
+          <span> The Pilgrim’s Journey: All paths lead to the same</span>
           <FlipWords words={words} duration={4000} />
         </motion.div>
 
@@ -33,8 +33,23 @@ const Work = () => {
           variants={slideInFromRight(0.5)}
           className="md:text-2xl mt-10 text-1xl"
         >
-          I am a Full Stack Software Engineer with experience in Website,
-          Mobile, and Software development. Check out my projects and skills.
+          Life as a pilgrimage from birth to death has many fleeting stations.
+          Journeying through existence, while reflecting on our individual
+          experiences, we realize a sense of uniqueness that defines us. Some
+          seem predestined for a privileged, prestigious life, while others
+          depend on the sweat of their labor and perseverance. The spectrum of
+          suffering and pleasure pervades every condition and limitation of our
+          existence. Witnessing such polar fates can be perplexing, and only
+          with knowledge can we begin to understand. And through knowledge, the
+          realization of our supreme identity is attained as eternal
+          consciousness in motion. This consciousness is driven by its innate
+          cosmic purpose, to know itself, and reunite with the infinite source:
+          the primordial, undifferentiated divine consciousness of the universe,
+          who we call
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            {" "}
+            God.{" "}
+          </span>
         </motion.p>
         <PortfolioCarousel />
       </motion.div>

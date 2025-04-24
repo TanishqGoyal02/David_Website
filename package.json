@@ -29,6 +29,7 @@
   "devDependencies": {
     "@react-three/drei": "^9.111.5",
     "@react-three/fiber": "^8.15.4",
+    "@svgr/webpack": "^8.1.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

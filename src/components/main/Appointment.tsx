@@ -2,6 +2,7 @@
 import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import { LampContainer } from "@/components/ui/lamptest";
+import ZodiacCarousel from "@/components/ui/ZodiacCarousel";
 
 const Appointment = () => {
   useEffect(() => {
@@ -18,6 +19,7 @@ const Appointment = () => {
   return (
     <section id="appointment" className="mt-[-100px]">
       <LampContainer>
+        <ZodiacCarousel />
         <motion.h1
           initial={{ opacity: 0.5, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -28,7 +30,7 @@ const Appointment = () => {
           }}
           className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
         >
-          Book Appointment
+          Consultation
         </motion.h1>
       </LampContainer>
       <div className="relative flex justify-center items-center w-full h-[700px] min-w-[320px] -mt-72">

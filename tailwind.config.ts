@@ -11,6 +11,7 @@ const config: Config = {
     extend: {
       animation: {
         spotlight: "spotlight 2s ease .75s 1 forwards",
+        "slide-left-infinite": "slide-left 40s linear infinite", // ✅ Fixed name here
       },
       keyframes: {
         spotlight: {
@@ -23,8 +24,11 @@ const config: Config = {
             transform: "translate(-50%,-40%) scale(1)",
           },
         },
+        "slide-left": {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
       },
-
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -81,4 +85,5 @@ const config: Config = {
   },
   plugins: [require("tailwindcss-animate")],
 };
+
 export default config;
