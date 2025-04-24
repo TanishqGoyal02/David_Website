@@ -177,10 +177,10 @@ const cardData = [
           barbaric to justify their subjugation and exploitation. Throughout
           history, cultures have collided in the pursuit of dominance, hegemony,
           and expansion of their perceived truths. Wars become inevitable, and
-          the victors assert, sometimes fabricating history to their advantage,
+          the victors assert, often fabricating history to their advantage,
           portraying themselves as heroes, while silencing, vilifying, and
           dehumanizing the defeated as uncivilized savages, heretics, and
-          infidels in need of redemption and conversion. However, to reach a
+          infidels in the need of redemption and conversion. However, to reach a
           more comprehensive and objective understanding of history, we must
           recognize and acknowledge that both, victors and vanquished, have
           their own narratives of events, each offering a description from their
@@ -188,30 +188,30 @@ const cardData = [
         </p>
         <p>
           Cultural practices and beliefs should be understood within their own
-          context and paradigm, rather than being judged through the standards,
+          context and paradigm, rather than being judged by the standards,
           values, and interpretations of another. True understanding of a
-          culture comes from living it, experiencing it, and immersing in it;
-          essentially becoming it. It is impossible to understand a culture by
-          analyzing and studying it as an outsider. It is essential to recognize
-          one critical mistake that is so frequently done; interpreting a
-          foreign culture, past and present, from the lens and worldview of our
-          own, which leads to a prejudiced misinterpretation and
-          misunderstanding.
+          culture comes from living it, experiencing it, and immersing oneself
+          in it; essentially becoming it. It is impossible to understand a
+          culture by analyzing and studying it as an outsider. It is essential
+          to recognize one critical mistake that is so frequently done;
+          interpreting a foreign culture, past or present, from the lens and
+          worldview of our own, which leads to a prejudiced misinterpretation
+          and misunderstanding.
         </p>
         <p>
           In today&rsquo;s modern world, the dominant cosmological view is
-          narrowly formulated by western methods and values rooted in science,
+          narrowly formulated by Western methods and values rooted in science,
           politics, and ethics. This perspective asserts itself pervasively,
           expanding and colonizing ubiquitously while eradicating alternate
           worldviews and forms of thought. As a result, societies and their
           trajectories are influenced by Western ideology, which prioritizes
           individualism, materialism, liberalism, capitalism, and reason,
           dismissing different ways of knowing and being. Western thought
-          imposes its truth and values as universal and objective, yet this
+          imposes its truths and values as universal and objective, yet this
           conviction ultimately limits and blinds us, hindering our ability to
-          explore the full potential of our human understanding. We must
-          challenge this cosmological worldview in order to truly know ourselves
-          and our relationship to nature and the universe.
+          explore the full potential of human understanding. We must challenge
+          this cosmological worldview in order to truly know ourselves and our
+          relationship to nature and the universe.
         </p>
         <p>
           What is the most valuable inheritance we can receive from our
@@ -226,18 +226,18 @@ const cardData = [
           It is no coincidence that when two cultures collide, the victors seek
           to sever this connection by outlawing and replacing the cosmology of
           the defeated. This is followed by the suppression of their native
-          language, because the cosmological worldview is integrated in the
-          etymology of the language embodying the essence of their cosmological
-          view. Through enforced conversion and erasing of ancestral memory, the
+          language, as the cosmological worldview is integrated into the
+          etymology of the language, embodying the essence of their cosmological
+          view. Through enforced conversion and erasure of ancestral memory, the
           conquered become disconnected from their ancestors and their God,
           ultimately lost with cultural amnesia.
         </p>
         <p>
-          To reclaim our identity and strength, we must return to the wisdom of
-          our ancestors. Their legacy is not merely a memory but a generational
+          To reclaim our identity and legacy, we must return to the wisdom of
+          our ancestors. Culture is not merely a memory, but a generational
           wealth of knowledge. Let us return to our ancestors and let their
           memory, but most importantly their generational wealth live on forever
-          through us and our posterity to come.
+          through us and our posterity yet to come.
         </p>
       </div>
     ),

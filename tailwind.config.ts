@@ -11,7 +11,7 @@ const config: Config = {
     extend: {
       animation: {
         spotlight: "spotlight 2s ease .75s 1 forwards",
-        "slide-left-infinite": "slide-left 40s linear infinite", // ✅ Fixed name here
+        "slide-left-infinite": "slide-left 20s linear infinite", // ✅ Fixed name here
       },
       keyframes: {
         spotlight: {
