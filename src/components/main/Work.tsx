@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import { slideInFromLeft, slideInFromRight } from "@/utils/motion";
 
 const Work = () => {
-  const words = ["destination", "zenith", "aspiration"];
+  const words = ["destination", "aspiration"];
 
   return (
     <section
@@ -23,9 +23,10 @@ const Work = () => {
       >
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-row items-center justify-center font-bold md:text-6xl text-3xl mx-auto h-2"
+          className="flex flex-row flex-wrap items-center justify-center gap-x-1 gap-y-2
+             font-bold text-2xl sm:text-3xl md:text-5xl mx-auto h-auto text-center"
         >
-          <span> The Pilgrim’s Journey: All paths lead to the same</span>
+          <span> The Pilgrim&rsquo;s Journey: All paths lead to the same</span>
           <FlipWords words={words} duration={4000} />
         </motion.div>
 
