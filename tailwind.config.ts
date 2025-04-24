@@ -11,7 +11,9 @@ const config: Config = {
     extend: {
       animation: {
         spotlight: "spotlight 2s ease .75s 1 forwards",
-        "slide-left-infinite": "slide-left 20s linear infinite", // ✅ Fixed name here
+        "slide-left-infinite": "slide-left 20s linear infinite",
+        scroll:
+          "scroll var(--animation-duration, 40s) linear infinite var(--animation-direction, forwards)",
       },
       keyframes: {
         spotlight: {
@@ -27,6 +29,11 @@ const config: Config = {
         "slide-left": {
           "0%": { transform: "translateX(0)" },
           "100%": { transform: "translateX(-100%)" },
+        },
+        scroll: {
+          to: {
+            transform: "translate(calc(-50% - 0.5rem))",
+          },
         },
       },
       backgroundImage: {

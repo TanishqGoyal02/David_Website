@@ -2,7 +2,8 @@
 import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import { LampContainer } from "@/components/ui/lamptest";
-import ZodiacCarousel from "@/components/ui/ZodiacCarousel";
+import ZodiacCarousel1 from "@/components/ui/ZodiacCarousel1";
+import { RightZodiac, LeftZodiac } from "@/components/ui/zodiac_control";
 
 const Appointment = () => {
   useEffect(() => {
@@ -19,7 +20,7 @@ const Appointment = () => {
   return (
     <section id="appointment" className="mt-[-100px]">
       <LampContainer>
-        <ZodiacCarousel />
+        <LeftZodiac />
         <motion.h1
           initial={{ opacity: 0.5, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -28,7 +29,7 @@ const Appointment = () => {
             duration: 0.8,
             ease: "easeInOut",
           }}
-          className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
+          className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-1 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
         >
           Consultation
         </motion.h1>
@@ -39,7 +40,7 @@ const Appointment = () => {
           data-url="https://calendly.com/tanishqgoyal"
         ></div>
       </div>
-      ;
+      <RightZodiac />;
     </section>
   );
 };
